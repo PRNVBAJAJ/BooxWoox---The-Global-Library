@@ -61,7 +61,7 @@ section {
 .section-heading {
   font-size: 3rem;
   font-weight: 700;
-  background: linear-gradient(-45deg, #c5b83d, #857727);
+  background: linear-gradient(-45deg, #c5b83d, #ffce44);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -162,7 +162,7 @@ section {
 }
 
 .step .number {
-  background: linear-gradient(-45deg, #c5b83d, #857727);
+  background: linear-gradient(-45deg, #c5b83d, #ffce44);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
@@ -225,13 +225,13 @@ section {
 }
 
 .testimonial-carousel .owl-dots .owl-dot.active > span {
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #c5b83d, #ffce44);
 }
 
 /* Pricing */
 .pricing {
   padding: 50px;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg, #c5b83d, #ffce44);
   color: #fff;
   padding-bottom: 12rem !important;
   position: relative;
@@ -291,7 +291,7 @@ section {
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.2);
   color: #000000;
-  background: linear-gradient(-45deg, #1391a5, #274685);
+  background: linear-gradient(-45deg,  #c5b83d, #ffce44);
   color: #fff;
   box-shadow: none;
 }
@@ -311,7 +311,7 @@ section {
 
 /* CTA Section */
 .cta-section {
-  background: linear-gradient(to right, #274685 0%, #3db3c5 100%);
+  background: linear-gradient(to right, #c5b83d 0%, #ffce44 100%);
   color: #fff;
 }
 
@@ -638,7 +638,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(to right,  #c5b83d 0%, #ffce44 100%), url(../img/hero-bg.jpg);
   position: relative;
 }
 
