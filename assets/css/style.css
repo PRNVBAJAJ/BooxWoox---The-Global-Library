@@ -769,18 +769,27 @@ section {
   width: 100%;
 }
 
-.site-navbar .site-logo {
+/*.site-navbar .site-logo {
   position: relative;
   font-size: 24px;
+
+}*/
+
+.site-navbar .logo{
+  position: relative;
+  background-size: contain;
+  max-width: 60%;
+  max-height: 60%;
+
 }
 
-.site-navbar .site-logo a {
+/*.site-navbar .site-logo a {
   color: #fff;
 }
 
 .site-navbar .site-logo a:hover {
   text-decoration: none;
-}
+}*/
 
 .site-navbar .site-navigation .site-menu {
   margin-bottom: 0;
