@@ -315,11 +315,6 @@ section {
   color: #fff;
 }
 
-.cta-section h2 {
-  color:#ffce44;
-  font-size: 3rem;
-  font-weight: 700;
-}
 
 @media screen and (max-width: 768px) {
   .cta-section h2 {
