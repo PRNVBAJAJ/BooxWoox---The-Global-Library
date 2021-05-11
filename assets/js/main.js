@@ -1,9 +1,3 @@
-/**
-* Template Name: SoftLand - v2.2.1
-* Template URL: https://bootstrapmade.com/softland-bootstrap-app-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function($) {
   "use strict";
 
@@ -120,5 +114,12 @@
       once: true
     });
   });
+
+  //Smooth Scrolling Function
+  var scroll = new SmoothScroll('.site-navigation a[href*="#"]', {
+    speed: 1000,
+    speedAsDuration: true
+  });
+
 
 })(jQuery);
