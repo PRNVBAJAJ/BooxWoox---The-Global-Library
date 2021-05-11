@@ -117,8 +117,9 @@
 
   //Smooth Scrolling Function
   var scroll = new SmoothScroll('.site-navigation a[href*="#"]', {
-    speed: 1000,
-    speedAsDuration: true
+    speed: 800,
+    speedAsDuration: false,
+    easing: 'easeInOutCubic'
   });
 
 
