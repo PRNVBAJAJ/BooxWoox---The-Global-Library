@@ -721,37 +721,22 @@ section {
 }
 
 @media screen and (max-width: 992px) {
-  .hero-section .iphone-wrap .phone-2, .hero-section .iphone-wrap .phone-1 {
+   .hero-section .iphone-wrap .headimage {
     position: relative;
     top: 0;
-    max-width: 100%;
   }
 }
 
-.hero-section .iphone-wrap .phone-2, .hero-section .iphone-wrap .phone-1 {
+ /* .hero-section .iphone-wrap .headimage {
   width: 250px;
-}
+} */
 
 @media screen and (max-width: 992px) {
-  .hero-section .iphone-wrap .phone-1 {
+  .hero-section .iphone-wrap .headimage {
     margin-left: -150px;
   }
 }
 
-.hero-section .iphone-wrap .phone-2 {
-  margin-top: 50px;
-  margin-left: 100px;
-  width: 250px;
-}
-
-@media screen and (max-width: 992px) {
-  .hero-section .iphone-wrap .phone-2 {
-    width: 250px;
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 100px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Nav
