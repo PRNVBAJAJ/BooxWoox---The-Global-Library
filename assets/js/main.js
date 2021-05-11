@@ -115,4 +115,11 @@
     });
   });
 
+  //Smooth Scrolling Function
+  var scroll = new SmoothScroll('.site-navigation a[href*="#"]', {
+    speed: 1000,
+    speedAsDuration: true
+  });
+
+
 })(jQuery);
