@@ -633,7 +633,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right,  #c5b83d 0%, #ffce44 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(to right,  #c5b83d 0%, #ffce44 100%);
   position: relative;
 }
 
@@ -711,6 +711,7 @@ section {
   }
 }
 
+
 .hero-section .iphone-wrap .headimage {
   position: absolute;
   top: -30%;
@@ -724,7 +725,8 @@ section {
 
 @media screen and (max-width: 992px) {
    .hero-section .iphone-wrap .headimage {
-    position: relative;
+     position: relative;
+     max-width: 50%;
     top: 0;
   }
 }
@@ -735,7 +737,7 @@ section {
 
 @media screen and (max-width: 992px) {
   .hero-section .iphone-wrap .headimage {
-    margin-left: -150px;
+    margin-left: 0px;
   }
 }
 
