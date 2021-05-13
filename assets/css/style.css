@@ -229,7 +229,7 @@ section {
 }
 
 /* Pricing */
-.pricing {
+/* .pricing {
   padding: 50px;
   background: linear-gradient(-45deg, #c5b83d, #ffce44);
   color: #fff;
@@ -307,7 +307,7 @@ section {
 
 .pricing.popular .btn-white {
   border: 2px solid #ffce44;
-}
+} */
 
 /* CTA Section */
 .cta-section {
@@ -718,7 +718,7 @@ section {
   overflow: hidden;
   left: 0; */
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
+  border-radius: 20px;
   max-width: 100%;
   height: auto;
 }
@@ -914,13 +914,13 @@ section {
 }
 
 .site-mobile-menu {
-  width: 300px;
-  position: fixed;
+  width: 250px;
+  position:fixed;
   right: 0;
   z-index: 2000;
   padding-top: 20px;
   background: #fff;
-  height: calc(100vh);
+  height: calc(70vh);
   transform: translateX(110%);
   box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
   transition: .3s all ease-in-out;
@@ -939,7 +939,7 @@ section {
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
   float: right;
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span {
