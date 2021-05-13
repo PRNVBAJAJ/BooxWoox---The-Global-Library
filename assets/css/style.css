@@ -713,20 +713,18 @@ section {
 
 
 .hero-section .iphone-wrap .headimage {
-  position: absolute;
+  /* position: absolute;
   top: -30%;
   overflow: hidden;
-  left: 0;
+  left: 0; */
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
   border-radius: 30px;
-  max-width: relative;
-  max-height: 110%;
+  max-width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 992px) {
    .hero-section .iphone-wrap .headimage {
-     position: relative;
-     max-width: 50%;
     top: 0;
   }
 }
