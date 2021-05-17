@@ -1201,3 +1201,8 @@ section {
   color: #fff;
   background: #ffce44;
 }
+
+.apply-shadow:hover{
+  box-shadow: 5px 5px 5px 5px #888888;
+  border-radius: 20px;
+}
