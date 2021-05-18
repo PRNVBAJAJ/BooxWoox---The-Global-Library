@@ -200,7 +200,7 @@ section {
 }
 
 /* Testimonial Carousel */
-.testimonial-carousel .owl-dots {
+/* .testimonial-carousel .owl-dots {
   position: absolute;
   bottom: -40px;
   width: 100%;
@@ -226,7 +226,7 @@ section {
 
 .testimonial-carousel .owl-dots .owl-dot.active > span {
   background: linear-gradient(-45deg, #c5b83d, #ffce44);
-}
+} */
 
 /* Pricing */
 /* .pricing {
@@ -387,7 +387,7 @@ section {
 }
 
 /* Contact Form */
-.form-control {
+/* .form-control {
   height: 53px;
   border-radius: 0;
   border: 1px solid #dae0e5;
@@ -465,7 +465,7 @@ section {
   100% {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* Blog */
 .post-entry {

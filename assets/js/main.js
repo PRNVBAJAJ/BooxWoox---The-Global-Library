@@ -153,5 +153,16 @@
     
   })
 
+  $(function () { 
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 10) { 
+            $('.site-navbar img').attr('src','assets/img/BooXWooXhor.png');
+        }
+        if ($(this).scrollTop() < 10) { 
+            $('.site-navbar img').attr('src','assets/img/White.png');
+        }
+    })
+});
+
 
 })(jQuery);
