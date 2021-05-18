@@ -229,7 +229,7 @@ section {
 }
 
 /* Pricing */
-.pricing {
+/* .pricing {
   padding: 50px;
   background: linear-gradient(-45deg, #c5b83d, #ffce44);
   color: #fff;
@@ -307,7 +307,7 @@ section {
 
 .pricing.popular .btn-white {
   border: 2px solid #ffce44;
-}
+} */
 
 /* CTA Section */
 .cta-section {
@@ -315,11 +315,6 @@ section {
   color: #fff;
 }
 
-.cta-section h2 {
-  color:#ffce44;
-  font-size: 3rem;
-  font-weight: 700;
-}
 
 @media screen and (max-width: 768px) {
   .cta-section h2 {
@@ -638,7 +633,7 @@ section {
 # Hero Section
 --------------------------------------------------------------*/
 .hero-section {
-  background: linear-gradient(to right,  #c5b83d 0%, #ffce44 100%), url(../img/hero-bg.jpg);
+  background: linear-gradient(to right,  #c5b83d 0%, #ffce44 100%);
   position: relative;
 }
 
@@ -707,7 +702,7 @@ section {
 }
 
 .hero-section .iphone-wrap {
-  position: relative;
+  position: center;
 }
 
 @media screen and (max-width: 992px) {
@@ -716,47 +711,34 @@ section {
   }
 }
 
-.hero-section .iphone-wrap .phone-2, .hero-section .iphone-wrap .phone-1 {
-  position: absolute;
-  top: -50%;
+
+.hero-section .iphone-wrap .headimage {
+  /* position: absolute;
+  top: -30%;
   overflow: hidden;
-  left: 0;
+  left: 0; */
   box-shadow: 0 15px 50px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 30px;
+  border-radius: 20px;
+  max-width: 100%;
+  height: auto;
 }
 
 @media screen and (max-width: 992px) {
-  .hero-section .iphone-wrap .phone-2, .hero-section .iphone-wrap .phone-1 {
-    position: relative;
+   .hero-section .iphone-wrap .headimage {
     top: 0;
-    max-width: 100%;
   }
 }
 
-.hero-section .iphone-wrap .phone-2, .hero-section .iphone-wrap .phone-1 {
+ /* .hero-section .iphone-wrap .headimage {
   width: 250px;
-}
+} */
 
 @media screen and (max-width: 992px) {
-  .hero-section .iphone-wrap .phone-1 {
-    margin-left: -150px;
+  .hero-section .iphone-wrap .headimage {
+    margin-left: 0px;
   }
 }
 
-.hero-section .iphone-wrap .phone-2 {
-  margin-top: 50px;
-  margin-left: 100px;
-  width: 250px;
-}
-
-@media screen and (max-width: 992px) {
-  .hero-section .iphone-wrap .phone-2 {
-    width: 250px;
-    position: absolute;
-    margin-top: 0px;
-    margin-left: 100px;
-  }
-}
 
 /*--------------------------------------------------------------
 # Nav
@@ -778,8 +760,8 @@ section {
 .site-navbar .logo{
   position: relative;
   background-size: contain;
-  max-width: 60%;
-  max-height: 60%;
+  max-width: 100%;
+  max-height: fit-content;
 
 }
 
@@ -932,13 +914,13 @@ section {
 }
 
 .site-mobile-menu {
-  width: 300px;
-  position: fixed;
+  width: 250px;
+  position:fixed;
   right: 0;
   z-index: 2000;
   padding-top: 20px;
   background: #fff;
-  height: calc(100vh);
+  height: calc(70vh);
   transform: translateX(110%);
   box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
   transition: .3s all ease-in-out;
@@ -957,7 +939,7 @@ section {
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close {
   float: right;
-  margin-top: 8px;
+  margin-top: 0px;
 }
 
 .site-mobile-menu .site-mobile-menu-header .site-mobile-menu-close span {
@@ -1218,4 +1200,9 @@ section {
 .social a:hover {
   color: #fff;
   background: #ffce44;
+}
+
+.apply-shadow:hover{
+  box-shadow: 5px 5px 5px 5px #888888;
+  border-radius: 20px;
 }
