@@ -1267,10 +1267,11 @@ section {
     background: #f8c100;
 }
 
-.apply-shadow:hover {
+
+/*.apply-shadow:hover {
     box-shadow: 5px 5px 5px 5px #888888;
     border-radius: 20px;
-}
+}*/
 
 .inputstl {
     padding: 9px;
