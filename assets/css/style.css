@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=BioRhyme:wght@800&display=swap');
 html {
     overflow-x: hidden;
 }
@@ -66,7 +67,8 @@ section {
 .section-heading {
     font-size: 3rem;
     font-weight: 700;
-    background: linear-gradient(-45deg, #b67400, #f8c100);
+    /*background: linear-gradient(-45deg, #b67400, #f8c100);*/
+    background: #f8c100;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -175,7 +177,7 @@ section {
 }
 
 .step .number {
-    background: linear-gradient(-45deg, #b67400, #f8c100);
+    background: linear-gradient(-45deg, #f8c100, #f8c100);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
@@ -673,7 +675,8 @@ section {
 --------------------------------------------------------------*/
 
 .hero-section {
-    background: linear-gradient(to right, #b67400 0%, #f8c100 100%);
+    /*background: linear-gradient(to right, #b67400 0%, #f8c100 100%);*/
+    background: #e49b1d;
     position: relative;
 }
 
@@ -1218,6 +1221,7 @@ section {
 
 .footer {
     padding: 5rem 0 2.5rem 0;
+    background-color: #e49b1d;
 }
 
 .footer h3 {
@@ -1282,4 +1286,121 @@ section {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
     -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+
+/* Animation */
+
+
+/* .wrapper {
+    font-family: 'BioRhyme', serif;
+} */
+
+.wrapper .static-txt {
+    color: #fff;
+    font-size: 5.5rem;
+    font-weight: 600;
+    font-family: 'BioRhyme', serif;
+}
+
+.wrapper .dynamic-txts {
+    margin-left: -35px;
+    height: 5.5rem;
+    line-height: 5.5rem;
+    font-family: 'BioRhyme', serif;
+    overflow: hidden;
+}
+
+.dynamic-txts li {
+    list-style: none;
+    color: #fff;
+    font-size: 5.5rem;
+    font-weight: 600;
+    position: relative;
+    top: 0;
+    animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+    100% {
+        top: -22rem;
+    }
+}
+
+.dynamic-txts li span {
+    margin: 15px 15px 15px 0px;
+    position: relative;
+    line-height: 5.5rem;
+}
+
+.dynamic-txts li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #e49b1d;
+    border-left: 2px solid #fff;
+    animation: typing 3s steps(10) infinite;
+}
+
+@keyframes typing {
+    40%,
+    60% {
+        left: calc(100% + 30px);
+    }
+    100% {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .wrapper .static-txt {
+        font-size: 3.25rem;
+        font-weight: 600;
+    }
+    .wrapper .dynamic-txts {
+        margin-left: -35px;
+        height: 3.25rem;
+        line-height: 3.25rem;
+        overflow: hidden;
+    }
+    .dynamic-txts li {
+        list-style: none;
+        color: #fff;
+        font-size: 3.25rem;
+        font-weight: 600;
+        position: relative;
+        top: 0;
+        animation: slide 12s steps(4) infinite;
+    }
+    @keyframes slide {
+        100% {
+            top: -13rem;
+        }
+    }
+    .dynamic-txts li span {
+        margin: 15px 15px 15px 0px;
+        position: relative;
+        line-height: 3.25rem;
+    }
+    .dynamic-txts li span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #e49b1d;
+        border-left: 2px solid #fff;
+        animation: typing 3s steps(10) infinite;
+    }
+    @keyframes typing {
+        40%,
+        60% {
+            left: calc(100% + 0rem);
+        }
+        100% {
+            left: 0;
+        }
+    }
 }
