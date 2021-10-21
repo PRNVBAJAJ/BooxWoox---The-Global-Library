@@ -29,10 +29,6 @@ h6,
     color: #000;
 }
 
-.wave {
-    background: 100vh;
-}
-
 .container {
     z-index: 2;
     position: relative;
